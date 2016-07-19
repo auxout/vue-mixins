@@ -11,7 +11,7 @@
     "test": "karma start --single-run",
     "preversion": "npm test",
     "version": "npm run build && git add .",
-    "postversion": "git push && git push --tags && npm publish"
+    "postversion": "git push && git push --tags"
   },
   "dependencies": {
     "vue": "^1.0.0",
