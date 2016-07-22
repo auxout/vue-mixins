@@ -1,9 +1,9 @@
 vueMixins = {
-  getDPR: require('./getDPR.js'),
-  isLoading: require('./isLoading.js'),
-  onBreakpoint: require('./onBreakpoint.js'),
-  onElementResize: require('./onElementResize.js'),
-  onWindowResize: require('./onWindowResize.js'),
+  getDPR: require('./dist/getDPR.js'),
+  isLoading: require('./dist/isLoading.js'),
+  onBreakpoint: require('./dist/onBreakpoint.js'),
+  onElementResize: require('./dist/onElementResize.js'),
+  onWindowResize: require('./dist/onWindowResize.js'),
 }
 if (module.exports != null){
   module.exports = vueMixins

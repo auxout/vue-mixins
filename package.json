@@ -5,8 +5,7 @@
   "author": "Takehiko Miyake <tkc@auxout.jp>",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
-    "build:coffee": "coffee --no-header --compile --output . src/*.coffee",
-    "build:webpack": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "build:coffee": "coffee --no-header --compile --output dist src/*.coffee",
     "build": "run-npm build:*",
     "test": "karma start --single-run",
     "preversion": "npm test",

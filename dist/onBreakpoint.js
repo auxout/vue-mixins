@@ -234,14 +234,7 @@
       return results;
     },
     beforeDestroy: function() {
-      var key, ref, results, val;
-      ref = this.breakPoinsts;
-      results = [];
-      for (key in ref) {
-        val = ref[key];
-        results.push(enquire.unregister(val.query));
-      }
-      return results;
+      return enquire = null;
     }
   };
 
