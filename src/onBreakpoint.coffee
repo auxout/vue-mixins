@@ -79,4 +79,5 @@ module.exports =
       enquire.register val.query, val.handler
 
   beforeDestroy: ->
-    enquire = null
+    for key, val of @breakPoinsts
+      enquire.unregister val.query
