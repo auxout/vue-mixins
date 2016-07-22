@@ -1,7 +1,7 @@
 {
   "name": "vue-mixins",
   "description": "collection of vue mixins",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Takehiko Miyake <tkc@auxout.jp>",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
